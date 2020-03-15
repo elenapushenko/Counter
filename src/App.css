@@ -1,38 +1,139 @@
+body {
+    background-color: #151515;
+}
+
 .App {
-  text-align: center;
+    width: 300px;
+    height: 250px;
+    margin: 200px auto 0 auto;
+    background-color: #151515 ;
+    border: solid 3px #ff2c7a;
+    border-radius: 10px;
+    padding:10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.count {
+    height: 130px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    color: #ff2c7a;
+    border: solid 3px #ff2c7a;
+    border-radius: 10px;
+    padding:10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.count h1 {
+    font-size: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.incrValue {
+    font-size: 30px;
+    color: #aa0815;
 }
 
-.App-link {
-  color: #61dafb;
+.maxCount {
+    height: 130px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    color: #aa0815;
+    border: solid 3px #ff2c7a;
+    border-radius: 10px;
+    padding:10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.maxCount h1 {
+    font-size: 55px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    border: solid 3px #ff2c7a;
+    border-radius: 10px;
+    padding:10px;
+}
+
+.addStyle {
+    background-color: #ff2c7a;
+    border: solid 3px #ff2c7a;
+    border-radius: 10px;
+    color: #151515;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.resetStyle {
+    background-color: #ff2c7a;
+    border: solid 3px #ff2c7a;
+    border-radius: 10px;
+    color: #151515;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.disableClassAdd {
+    background-color: #ff2c7a;
+    border: solid 3px #ff2c7a;
+    border-radius: 10px;
+    color: #151515;
+    font-size: 20px;
+    font-weight: 900;
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.disableClassReset {
+    background-color: #ff2c7a;
+    border: solid 3px #ff2c7a;
+    border-radius: 10px;
+    color: #151515;
+    font-size: 20px;
+    font-weight: 900;
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.setStyle {
+    background-color: #ff2c7a;
+    border: solid 3px #ff2c7a;
+    border-radius: 10px;
+    color: #151515;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
+.displayStyle {
+    height: 130px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ff2c7a;
+    border: solid 3px #ff2c7a;
+    border-radius: 10px;
+    padding:10px;
+}
+
+.inputName {
+    font-size: 20px;
+
+}
+
+.inputLine{
+    width: 100px;
+    height: 20px;
+    margin: 5px 0 auto 50px;
+    border: solid 2px #ff2c7a;
+    border-radius: 5px;
+}
+
+.error {
+    width: 100px;
+    height: 20px;
+    margin: 5px 0 auto 50px;
+    border: solid 2px red;
+    background-color: #ff9098;
 }
